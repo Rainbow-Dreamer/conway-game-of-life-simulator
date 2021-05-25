@@ -21,7 +21,7 @@ You can change settings in the file `康威生命游戏配置参数.py`:
 * life_img: the image path of life image
 * read_file: the image path of text file if you want to read a whole lives' pattern into this simulator, otherwise leave it as `None`
 
-Note: If you want to read a whole lives' pattern into this simulator, you can set `read_file` in the settings file to image path of a text file, the text file must be in the form that uses `o` to represent lives and ` ` to represent no lives. (just whitespaces for no lives)
+Note: If you want to read a whole lives' pattern into this simulator, you can set `read_file` in the settings file to image path of a text file, the text file must be in the form that uses `o` to represent lives and ` ` to represent no lives. (whitespaces for no lives)
 
 The default background image is a whole black image, you can change the background images in the settings file.
 
@@ -55,7 +55,7 @@ Here is a picture of this conway's game of life editor and simulator:
 * life_img: 生命图片的图片路径
 * read_file: 文本文件的路径，如果你想读取整个生命的图案到这个模拟器中，否则留作`None`
 
-注意：如果你想把整个生命的图案读入这个模拟器，你可以在设置文件中把read_file设置为一个文本文件的图像路径，这个文本文件必须是用o来代表生命和代表无生命的形式。(只是用空格表示没有生命)
+注意：如果你想把整个生命的图案读入这个模拟器，你可以在设置文件中把`read_file`设置为一个文本文件的图像路径，这个文本文件必须是用`o`来代表生命和` `代表无生命的形式。(用空格表示没有生命)
 
 默认的背景图像是整个黑色的图像，你可以在设置文件中改变背景图像。
 
