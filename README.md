@@ -41,7 +41,7 @@ Here is a picture of this conway's game of life editor and simulator:
 
 用鼠标的左键画出生命，用鼠标的右键抹去生命
 
-在键盘上:
+在键盘上:  
 按C键清除当前屏幕上所有的生命  
 按空格键启动当前在屏幕上的生命的进化  
 按Q键暂停当前的演化
