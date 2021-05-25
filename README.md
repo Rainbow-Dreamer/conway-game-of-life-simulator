@@ -24,8 +24,10 @@ You can change settings in the file `康威生命游戏配置参数.py`
 
 Note: If you want to read a whole lives' pattern into this simulator, you can set `read_file` in the settings file to image path of a text file, the text file must be in the form that uses `o` to represent lives and ` ` to represent no lives. (just whitespaces for no lives)
 
-The default background image is a whole black image, you can change the background images in the settings file.  
-You can also change the images of lives in the settings file.  
+The default background image is a whole black image, you can change the background images in the settings file.
+
+You can also change the images of lives in the settings file.
+
 If you want to change the BS rule of conway's game of life, you can change B and S in the settings file, please note that B must be an integer and S must be a list of integers. After that, save the settings file and then restart the simulator to have the changed settings take effect.
 
 Here is a picture of this onway's game of life editor and simulator:
@@ -52,13 +54,15 @@ Here is a picture of this onway's game of life editor and simulator:
 * screen_size：屏幕的大小，宽度和高度，单位为像素
 * block_size: 块的大小，单位是像素
 * background_img: 背景图片的图片路径
-* life_img: 生活图片的图片路径
+* life_img: 生命图片的图片路径
 * read_file: 文本文件的路径，如果你想读取整个生命的图案到这个模拟器中，否则留作`None`
 
 注意：如果你想把整个生命的图案读入这个模拟器，你可以在设置文件中把read_file设置为一个文本文件的图像路径，这个文本文件必须是用o来代表生命和代表无生命的形式。(只是用空格表示没有生命)
 
-默认的背景图像是整个黑色的图像，你可以在设置文件中改变背景图像。  
-你也可以在设置文件中改变生命的图像。  
+默认的背景图像是整个黑色的图像，你可以在设置文件中改变背景图像。
+
+你也可以在设置文件中改变生命的图像。
+
 如果你想改变康威生命游戏的BS规则，你可以在设置文件中改变B和S，请注意，B必须是一个整数，S必须是一个整数的列表。之后，保存设置文件，然后重新启动模拟器，使改变的设置生效。
 
 下面是这个康威生命游戏编辑器和模拟器的界面图:
