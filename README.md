@@ -30,7 +30,7 @@ You can also change the images of lives in the settings file.
 
 If you want to change the BS rule of conway's game of life, you can change B and S in the settings file, please note that B must be an integer and S must be a list of integers. After that, save the settings file and then restart the simulator to have the changed settings take effect.
 
-Here is a picture of this onway's game of life editor and simulator:
+Here is a picture of this conway's game of life editor and simulator:
 ![image](previews/1.jpg)
 
 # conway-game-of-life-simulator中文版介绍
