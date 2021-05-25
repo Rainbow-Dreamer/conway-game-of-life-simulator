@@ -20,7 +20,6 @@ You can change settings in the file `康威生命游戏配置参数.py`
 * life_img: the image path of life image
 * read_file: the image path of text file if you want to read a whole lives' pattern into this simulator, otherwise leave it as `None`
 
-Note: If you want to read a whole lives' pattern into this simulator, you can set `read_file` in the settings file to image path of a text file,  
-the text file must be in the form that uses `o` to represent lives and ` ` to represent no lives. (just whitespaces for no lives)
+Note: If you want to read a whole lives' pattern into this simulator, you can set `read_file` in the settings file to image path of a text file, the text file must be in the form that uses `o` to represent lives and ` ` to represent no lives. (just whitespaces for no lives)
 
 这是一个简单的康威生命游戏的模拟器，你可以在这个软件里简单地描绘生命并且看他们演化，你可以设置BS规则，改变生命和背景的图片等等。
