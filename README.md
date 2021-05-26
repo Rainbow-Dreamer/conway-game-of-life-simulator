@@ -2,7 +2,7 @@
 
 [中文](#conway-game-of-life-simulator中文版介绍) English
 
-This is a simple conway's game of life editor and simulator, you can draw any lifes easily in this software and watch their evolutions, and you can customize the BS rules and the images of lives and background, and so on.
+This is a simple conway's game of life editor and simulator, you can draw any lives easily in this software and watch their evolutions, and you can customize the BS rules and the images of lives and background, and so on.
 
 Use mouse's left button to draw lives, use mouse's right button to erase lives.
 
