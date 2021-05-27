@@ -1,3 +1,4 @@
+
 B = 3
 S = [2, 3]
 title_name = 'conway\'s game of life simulator'
