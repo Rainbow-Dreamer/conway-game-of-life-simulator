@@ -10,6 +10,15 @@ with open('scripts/settings.py', encoding='utf-8-sig') as f:
     exec(f.read())
 window = pyglet.window.Window(*screen_size)
 pyglet.resource.path = [abs_path]
+for each in ['background_img', 'life_img']:
+    each_value = eval(each)
+    each_path = os.path.dirname(each_value)
+    if each_path:
+        if each_path == 'resources':
+            exec(f"{each} = '{each_value}'")
+        else:
+            pyglet.resource.path.append(each_path.replace('/', '\\'))
+            exec(f"{each} = '{os.path.basename(each_value)}'")
 pyglet.resource.reindex()
 image = pyglet.resource.image(background_img)
 image.width, image.height = screen_size
