@@ -11,7 +11,7 @@ press C to clear all of the lives currently on the screen
 press space to start evolutions of the lives currently on the screen  
 press Q to pause current evolutions
 
-You can change settings in the file `康威生命游戏配置参数.py`:
+You can change settings in the file `settings.py` in `scripts` folder:
 * B: Born parameter in BS rule of conway's game of life
 * S: Survive parameter in BS rule of conway's game of life
 * title_name: the title of the screen
@@ -45,7 +45,7 @@ Here is a picture of this conway's game of life editor and simulator:
 按空格键启动当前在屏幕上的生命的进化  
 按Q键暂停当前的演化
 
-你可以在`康威生命游戏配置参数.py`这个文件中改变设置:
+你可以在`scripts`文件夹中的`settings.py`这个文件中改变设置:
 * B：康威生命游戏的BS规则中的出生参数
 * S：康威生命游戏的BS规则中的生存参数
 * title_name：屏幕的标题
