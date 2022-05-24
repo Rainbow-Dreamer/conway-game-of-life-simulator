@@ -6,7 +6,7 @@ import os, sys
 abs_path = os.path.dirname(os.path.abspath(__file__))
 os.chdir(abs_path)
 sys.path.append(abs_path)
-with open('scripts/settings.py', encoding='utf-8-sig') as f:
+with open('scripts/settings.py', encoding='utf-8') as f:
     exec(f.read())
 window = pyglet.window.Window(*screen_size)
 pyglet.resource.path = [abs_path]
